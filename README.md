@@ -1,8 +1,6 @@
 Fråga 1: Versionshantering vs vanliga filer
 
-För Godkänt (G): Vad är versionshantering och vad är den stora skillnaden mellan att spara en fil via editorns vanliga sparaknapp och att spara ändringar i Git?
-För Väl Godkänt (VG): Förklara vad som menas med att Git sparar en tidslinje av frysta ögonblicksbilder (commits). Vad bevisar det faktum att du när som helst kan klicka på din allra första commit på GitHub och fortfarande se alla tre TODO kvar i koden, trots att filen på din dator ser helt annorlunda ut idag?
-
+ - Versionshantering är kort att man kan gå tillbaka och se historiska ändringar som har skett i koden, att spara lokalt lämnar ingen historik. Genom att köra commits när ändringar har skett kan man få den historiken och gå tillbaka ifall något t.ex. slutar att fungera. Varje commit får ett eget unikt ID som underlättar för att välja rätt samt även går att jämnföra med ett annat commitID för att se förändringen där emellan.
 
 Fråga 2: Arbetsytan, Staging och Commits
 För Godkänt (G): Beskriv vad kommandona git status, git add och git commit gör i det dagliga arbetsflödet och när du kör dem.
